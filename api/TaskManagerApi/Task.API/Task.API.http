@@ -1,0 +1,6 @@
+@Task.API_HostAddress = http://localhost:5190
+
+GET {{Task.API_HostAddress}}/tasks/
+Accept: application/json
+
+###

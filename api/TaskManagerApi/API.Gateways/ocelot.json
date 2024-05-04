@@ -1,0 +1,17 @@
+{
+  "Routes": [
+    {
+
+      "UpstreamHttpMethod": [ "Get" ],
+      "UpstreamPathTemplate": "/tasks",
+      "DownstreamPathTemplate": "/tasks",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 5190
+        }
+      ]
+    }
+  ]
+}
