@@ -11,7 +11,10 @@
           "Host": "localhost",
           "Port": 5190
         }
-      ]
+      ],
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "Bearer"
+      }
     }
   ]
 }
